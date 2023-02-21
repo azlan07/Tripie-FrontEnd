@@ -1,0 +1,497 @@
+/* Register */
+.image-plane img {
+  margin-top: 20px;
+}
+
+.register {
+  font-family: 'Poppins';
+  background-color: #fafafa;
+  height: 100vh;
+  min-height: 100%;
+}
+
+/* End Register */
+
+:root {
+  --background-color: #fafafa;
+  --black-color: #232631;
+  --gray-color: #656565;
+  --cream-color: #fdc886;
+  --blue-color: #5a4fcf;
+}
+
+/* Navbar */
+nav.navbar {
+  padding: 18px 0;
+  transition: 0.3s ease-in-out;
+}
+
+nav.navbar .button-sign button {
+  font-size: 16px;
+  padding: 7px 21px;
+  background-color: #051334;
+  color: #fff;
+  border-radius: 12px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  border: 1px solid #051334;
+}
+
+.navbar-nav {
+  margin-left: 20px;
+}
+
+.navbar-nav a {
+  margin: 0 20px;
+  color: #000;
+  font-size: 16px;
+  font-family: 'Poppins';
+}
+
+.navbar-nav a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+/* End Nav */
+
+/* Off Canvas */
+
+
+/* End Off Canvas */
+
+
+/* Home */
+
+.home {
+  top: 0;
+  min-height: 80vh;
+  background-image: url('./assets/images/background.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: -100px;
+}
+
+.wrap-text h2 {
+  font-size: 48px;
+  font-weight: 600;
+  padding-top: 120px;
+}
+
+.btn-cream {
+  background-color:  var(--cream-color);
+  padding: 18px 25px;
+}
+
+/* Form */
+
+.form {
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  padding: 0 0 30px 0;
+  padding-top: -202px;
+  z-index: 10;
+  position: relative;
+  width: 80%;
+  justify-content: center;
+}
+
+.form .text-center {
+  background-color: #0066B3;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.form .text-center h4 {
+  font-family: 'Poppins';
+  font-size: 18px;
+  color: #fff;
+  padding: 13px 0;
+  margin: 0;
+}
+
+.form .btn-cari {
+  width: 100%;
+  color: #fff;
+  background-color: #0066b3;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 70px;
+  font-family: 'Poppins';
+}
+
+/* Why Us */
+
+#why-us {
+  margin-top: 120px;
+}
+
+.why-us h5 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  color: #051334;
+}
+
+.why-us h3 {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: 'Poppins';
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.image-center {
+  margin: 0 auto;
+  max-width: 80px;
+  margin-top: 40px;
+}
+
+.why-us .card {
+  max-width: 358px;
+  min-height: 377px;
+  overflow-y: hidden;
+  margin: 0 auto;
+}
+
+.why-us .card:hover {
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#why-us .card-body {
+  padding: 16px 0 0 0 !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #656565;
+}
+
+.btn.btn-details:hover {
+  background-color: #051334;
+  color: #fff;
+}
+
+.btn.btn-details {
+  width: 100%;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  padding: 17px 0;
+  margin-top: auto;
+  border-radius: 0;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+.slick-slide>div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+/* End Why Us */
+
+/* Most Popular */
+
+.btn-view {
+  background-color: #051334 !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  padding: 0.7rem 1.6rem !important;
+}
+
+.btn-view:hover {
+  background-color: #0a276a !important;
+}
+
+.text-title-blue {
+  font-size: 16px;
+  font-weight: 600;
+  color: #051334;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+#most-popular {
+  margin-top: 130px;
+  font-family: 'Poppins';
+}
+
+#most-popular .text-title-black {
+  margin-bottom: 20px !important;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#most-popular .text-title-gray {
+  margin-bottom: 56px !important;
+  color: #656565;
+  font-size: 16px;
+}
+
+#most-popular .most-popular-item {
+  cursor: pointer;
+  position: relative;
+  transition: width 0.5s;
+  height: 475px;
+}
+
+#most-popular .most-popular-item img {
+  border-radius: 24px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#most-popular .most-popular-item .most-popular-card {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: flex-end;
+  transition: all 1s ease-out;
+}
+
+#most-popular .most-popular-item .most-popular-card .card {
+  border: 0;
+  margin: 30px;
+  border-radius: 24px;
+  width: 100%;
+}
+
+#most-popular .most-popular-item .most-popular-card-star {
+  font-size: 16px;
+  color: #ffb800;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+#most-popular .most-popular-item .most-popular-card-total {
+  font-size: 16px;
+  color: var(--gray-color);
+  font-weight: 400;
+}
+
+#most-popular .most-popular-item .most-popular-card-title {
+  font-size: 18px;
+  color: var(--black-color);
+  font-weight: 600;
+}
+
+#most-popular .most-popular-item .most-popular-card-location {
+  font-size: 16px;
+  color: var(--gray-color);
+  font-weight: 400;
+}
+
+#most-popular .most-popular-item .most-popular-card .btn-view {
+  border-radius: 12px !important;
+}
+
+#most-popular .col-6 .most-popular-card {
+  opacity: 1 !important;
+}
+
+/* Footer */
+
+#footer {
+  margin-top: 120px;
+  background-color: #051334;
+  padding: 12px 0;
+  color: #fff;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* End Footer */
+
+
+/* Pilih Penerbangan */
+
+/* Text URL */
+.wrap-text {
+  font-family: 'Poppins';
+}
+
+
+.wrap-text p {
+  font-size: 18px;
+  /* font-weight: 600; */
+  padding-top: 120px;
+}
+
+.wrap-text span {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 120px;
+}
+
+/* For Destinations */
+.top {
+  padding-top: 120px;
+}
+/* End For Destinations */
+
+/* End Text URL */
+
+/* Penerbangan Tujuan */
+
+.penerbangan-tujuan {
+  background-color: #fff;
+  padding: 12px 0 5px 0;
+}
+
+.penerbangan-tujuan-text {
+  font-size: 18px;
+  font-family: 'Poppins';
+  /* padding-top: 15px; */
+}
+
+.penerbangan-text {
+  margin: 0;
+}
+
+.penerbangan-harga span {
+  background-color: #051334;
+  padding: 7px 30px;
+  color: #fff;
+}
+
+.penerbangan-card {
+  padding: 20px 18px;
+}
+
+.penerbangan-card:hover {
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.penerbangan-jam {
+  font-size: 18px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  color: #000;
+}
+
+.penerbangan-kota {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+
+.btn.btn-booking {
+  background-color: #FF6E40;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn.btn-booking:hover {
+  background-color: #fe4a13;
+  color: #fff;
+}
+
+.text-airport {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+
+.text-city {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Poppins';
+}
+
+.tanggal {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Poppins';
+}
+
+/* End Penerbangan Tujuan */
+
+
+/* End Pilih Penerbangan */
+
+
+/* Isi Detail */
+
+.text-url1 {
+  font-weight: 400;
+}
+
+/* Form Detail */
+
+.form-detail {
+  background-color: #fff;
+}
+
+/* End Form Detail */
+
+/* Pesanan Anda */
+
+.pesanan-anda {
+  background-color: #051334;
+  color: #fff;
+}
+
+/* End Pesanan Anda */
+
+
+/* End Isi Detail */
+
+
+
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+  #most-popular .most-popular-item .most-popular-card {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    opacity: 1;
+    justify-content: center;
+    align-items: flex-end;
+    transition: all 1s ease-out;
+  }
+
+  #most-popular .most-popular-item .most-popular-card .card {
+    border: 0;
+    margin: 30px;
+    border-radius: 24px;
+    width: 100%;
+  }
+
+  #most-popular .most-popular-item .most-popular-card-star {
+    font-size: 16px;
+    color: #ffb800;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+
+  .offcanvas {
+    width: 50%;
+  }
+
+  /* For Destinations */
+  .top {
+    padding-top: 120px;
+  }
+}
