@@ -17,8 +17,8 @@ export const postIsiDetail = (data) => (dispatch) => {
       // POST API
   axios({
     method: 'POST',
-    url: 'https://be-final-production.up.railway.app/booking-ticket',
-    // url: 'http://localhost:8000/booking-ticket',
+    // url: 'https://be-final-production.up.railway.app/booking-ticket',
+    url: 'http://localhost:8000/booking-ticket',
     timeout: 120000,
     data: data,
     headers: {
@@ -59,8 +59,8 @@ export const getIsiDetail = () => (dispatch) => {
 
   axios({
     method: 'GET',
-    // url: 'http://localhost:8000/history',
-    url: 'https://be-final-production.up.railway.app/history',
+    url: 'http://localhost:8000/history',
+    // url: 'https://be-final-production.up.railway.app/history',
     timeout: 120000,
   })
     .then((response) => {
